@@ -71,7 +71,7 @@ for widget in user_info_frame.winfo_children():
 courses_frame = tkinter.LabelFrame(frame)
 courses_frame.grid(row=1, column=0, sticky="news", padx=20, pady=10)
 
-course_label = tkinter.Label(courses_frame, text="Preffered Coding Course")
+course_label = tkinter.Label(courses_frame, text="Preferred Coding Course")
 course_combobox = ttk.Combobox(courses_frame, values=[" ", "Pyhton ", "HTML ", "CSS ", "JavaScript ", "React ", "C# ", "C++ ", "Swift "])
 course_label.grid(row=0, column=0)
 course_combobox.grid(row=1, column=0)
